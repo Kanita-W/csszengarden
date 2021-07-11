@@ -1,8 +1,8 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [Your name]
+> [Kanita Wansang]
 >  
-> [Your ID]
+> [6210450431]
 
 ## Task
 

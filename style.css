@@ -1,0 +1,218 @@
+p {
+  color: black;
+}
+
+header {
+  background-image: url(https://media.baamboozle.com/uploads/images/90264/1602139798_268290);
+  text-align: center;
+  margin: 1px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #588f2c;
+  color: white;
+}
+
+body {
+  margin-right: 100px;
+  margin-left: 100px;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 300% 300%;
+  position: relative;
+  animation: change 5s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.intro h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+  background-color: #ba8225;
+  height: 50px;
+  width: unset;
+  border: 2px solid;
+  padding: 10px;
+  font: 15px Arial, sans-serif;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.preamble h3 {
+  background-image: url(https://image.flaticon.com/icons/png/512/2883/2883739.png);
+  background-size: 67px;
+  background-repeat: repeat-y;
+}
+
+.explanation h3 {
+  background-image: url(https://image.flaticon.com/icons/png/512/1014/1014641.png);
+  background-position-x: 30px;
+  background-size: 67px;
+  background-repeat: no-repeat;
+}
+
+.benefits h3 {
+  background-image: url(https://image.flaticon.com/icons/png/512/1329/1329416.png);
+  background-position-x: 30px;
+  background-size: 60px;
+  background-repeat: no-repeat;
+}
+
+div#zen-summary, div#zen-preamble, div#zen-supporting {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 40px 0;
+}
+.wrapper h3 {
+  background-color: #ba8225;
+  width: unset;
+  text-align: center;
+  font-size: 30px;
+}
+.wrapper .design-selection, .wrapper .design-archives, .wrapper .zen-resources {
+  border: 1px solid;
+  display: block;
+  margin-block: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: max-content;
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  border-color: white;
+}
+
+ul {
+  margin-block: 10px;
+  font-family: "Libre Baskerville", sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f1f1f1;
+  display: block;
+}
+
+li a {
+  color: #000;
+  padding: 1px;
+}
+
+li a:hover {
+  background-color: #a7edfa;
+  color: #4b4b4b;
+}
+
+ul {
+  margin-right: 30px;
+}
+
+li {
+  margin: 20px;
+}
+
+.design-selection .designer-name {
+  color: #479c0f;
+  font-size: 0.9em;
+  font-style: normal;
+}
+
+.participation a, .requirements a {
+  background-color: #b6cce5;
+  list-style-type: none;
+  text-align: center;
+  margin: 3px;
+  padding: 2px;
+}
+
+.summary a {
+  display: inline-block;
+  padding: 5px 8px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d81852;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #ada5a5;
+}
+
+a.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
+  display: inline-block;
+  padding: 20px 65px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d81852;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #ada5a5;
+}
+
+footer a:hover {
+  background-color: #3e8e41;
+}
+
+footer a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.preamble {
+  border: 1px solid;
+  margin-block: 50px;
+  margin-right: 400px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  border-color: white;
+}
+
+.explanation {
+  border: 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-block: 40px;
+  background-color: white;
+  border-color: white;
+}
+
+.benefits {
+  border: 1px solid;
+  margin-right: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-block: 40px;
+  background-color: white;
+  border-color: white;
+}
+
+.requirements, .participation {
+  border: 1px solid;
+  margin-block: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  border-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
